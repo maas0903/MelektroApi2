@@ -40,7 +40,7 @@ public class Today {
      */
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public String getJson() throws IOException {
+    public String getJson() throws IOException, InterruptedException {
         return GetToday_Formatted();
     }
 

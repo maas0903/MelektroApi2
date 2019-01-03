@@ -33,6 +33,7 @@ public class ApplicationConfig extends Application {
         resources.add(org.melektro.random.Random.class);
         resources.add(org.melektro.NatoAlphabet.NatoAlphabet.class);
         resources.add(org.melektro.today.Today.class);
+        resources.add(org.melektro.GetHistory.GetHistory.class);
     }
     
 }
